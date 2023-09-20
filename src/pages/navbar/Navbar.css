@@ -47,7 +47,7 @@ a {
 .nav-bottom-line {
   height: 3px;
   background-color: red;
-  width: 95%;
+  width: 95%;  
 }
 
 @media screen and (max-width:799px) {
@@ -89,9 +89,10 @@ a {
 }
 
 .aside .nav {
-  /* margin-top: 10px; */
+  margin-top: 10px;
   display: flex;
   flex-wrap: wrap;
+  gap: 5px;
 }
 
 .aside .nav li {

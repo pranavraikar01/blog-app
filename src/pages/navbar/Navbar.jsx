@@ -35,32 +35,32 @@ function Navbar() {
               <ul className="nav navbar-nav">
                 <li className="nav-item">
                   <Link to="/Home" className="nav-link">
-                     Home{' '}
+                    <i className="fa fa-home"> Home</i>{' '}
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link" to="/Bollywood">
-                     Bollywood{' '}
+                    <i className="fa fa-youtube-play"> Bollywood</i>{' '}
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link" to="/Technology">
-                     Technologys{' '}
+                    <i className="fa fa-tv"> Technologys</i>{' '}
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link" to="/Hollywood">
-                    Hollywood{' '}
+                    <i className="fa fa-youtube-play"> Hollywood</i>{' '}
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link" to="/Fitness">
-                     Fitness{' '}
+                    <i className="fa fa-heartbeat"> Fitness</i>{' '}
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link" to="/Food">
-                     Food{' '}
+                    <i className="fa fa-cutlery"> Food</i>{' '}
                   </Link>
                 </li>
               </ul>
