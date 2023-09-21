@@ -28,10 +28,9 @@ function Navbar() {
         >
           <span></span>
         </div>
-
         <nav className="navbar" id="navbar">
           <div className="nav-container">
-            <div className="" id="navbarResponsive">
+            <div className="navbarResponsive" id="navbarResponsive">
               <ul className="nav navbar-nav">
                 <li className="nav-item">
                   <Link to="/Home" className="nav-link">
