@@ -5,7 +5,6 @@ import { useParams, Link } from 'react-router-dom';
 import './Article.css';
 import Footer from '../footer/Footer'
 
-
 const writter = [
   { name: "Ajay Dhangar", date: "28th July, 2023", img: 'https://avatars.githubusercontent.com/u/99037494?v=4', },
   { name: "Ajay Dhangar", date: "1st August, 2023", img: 'https://avatars.githubusercontent.com/u/99037494?v=4' },
@@ -55,11 +54,11 @@ const Article = () => {
                         </div>
                         <div className='social-icons'>
                           <ul className="icons">
-                            <li><Link to="https://github.com/Ajay-Dhangar" target='blank'><ion-icon name="logo-github"></ion-icon></Link></li>
-                            <li><Link to="https://twitter.com/AJAYDHA27250016" target='blank'><ion-icon name="logo-twitter"></ion-icon></Link></li>
-                            <li><Link to="https://www.linkedin.com/in/ajay-dhangar/" target='blank'><ion-icon name="logo-linkedin"></ion-icon></Link></li>
-                            <li><Link to="https://www.youtube.com/channel/UCRQBq8dfTEZfIMxmq-Ba9Tw" target='blank'><ion-icon name="logo-youtube"></ion-icon></Link></li>
-                          </ul>
+                          <li><Link className="github" to="https://github.com/React-js-Mastery/blog-app" target="_blank"><i className="fa fa-github"></i></Link></li>
+                            <li><Link className="twitter"  to="https://twitter.com/AJAYDHA27250016" target="_blank"><i className="fa fa-twitter"></i></Link></li>
+                            <li><Link className="youtube-play" to="https://www.youtube.com/channel/UCRQBq8dfTEZfIMxmq-Ba9Tw" target="_blank"><i className="fa fa-youtube-play"></i></Link></li>
+                            <li><Link className="linkedin" to="https://www.linkedin.com/in/ajay-dhangar/" target="_blank"><i className="fa fa-linkedin"></i></Link></li>
+                         </ul>                          
                         </div>
                       </div>
                     </div>
@@ -81,7 +80,7 @@ const Article = () => {
 
           <div className="article-bottom-info">
             {data
-              .filter((value) => value.id !== path && value.category === categories).slice(0, 4)
+              .filter((value) => value.id !== path && value.category === categories).slice(2, 6)
               .map((val) => (
                 <div key={val.id} className="article-botton-contener">
                   <Link

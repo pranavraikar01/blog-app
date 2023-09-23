@@ -269,7 +269,7 @@ const Hollystories = () => {
               })}
           </div>
           <div className='ads-container'>
-            <div className="ads-box ads-1">Advertisement</div>
+            <div className="ads-box ads-2">Advertisement</div>
           </div>
         </div>
       </div>
