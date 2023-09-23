@@ -75,6 +75,7 @@
 .render-text-info {
     margin-top: 10px;
     display: block;
+    padding-top: 20px;
     /* background-color: red; */
 }
 
