@@ -71,20 +71,7 @@
     border: 1px solid red;
     border-radius: 8px;
 }
-.ads-1{
-    background-image: url('../../../img/aid-3.gif');    
-    /* background-size: cover; */
-    /* background-repeat: no-repeat; */
-    width: auto;
-    height: 100%;
- }
-.ads-2{
-   background-image: url('../../../img/aid-3.gif');  
-   background-size: cover;
-   background-repeat: no-repeat;
-   width: auto;
-   height: 100%;
-}
+
 @media screen and (max-width:1000px){
     .ads-container{
         margin: 10px;
