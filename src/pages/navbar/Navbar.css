@@ -70,7 +70,7 @@ a {
   width: 45px;
   border: 1px solid #262626;
   cursor: pointer;
-  position: fixed;
+  position: absolute;
   left: 300px;
   top: 20px;
   border-radius: 5px;
@@ -115,7 +115,7 @@ a {
   .aside nav, .aside .nav {
     display: none;
     /* Hide the nav links by default on smaller screens */
-  }
+  } 
 
   .aside.open nav, .aside.open .nav {
     display: block;
