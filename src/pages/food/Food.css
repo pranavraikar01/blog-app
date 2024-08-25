@@ -1,4 +1,4 @@
-.Food-Main-Container{
+.Food-Main-Container {
   padding: 5px;
   text-align: center;
 }
@@ -79,7 +79,7 @@
   font-size: 28px;
   color: orangered;
   text-transform: uppercase;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .food-desc {
@@ -148,7 +148,6 @@
 }
 
 .top-food-post-details-wrapper {
-
   width: 60%;
 }
 
@@ -162,7 +161,7 @@
 .top-food-post-title {
   color: orangered;
   text-transform: uppercase;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   font-size: 20px;
   font-weight: bold;
   /* text-shadow: 2px 2px 4px #5f4646; */
@@ -187,18 +186,20 @@
   flex-wrap: wrap;
   justify-content: center;
 }
-
+.img1 {
+  width: 100%;
+}
 .food-ads-container2 {
   display: none;
 }
 
-@media screen and (max-width:1000px){
-  .FoodContainer{
+@media screen and (max-width: 1000px) {
+  .FoodContainer {
     display: block;
   }
   .Food-Left-Data {
     width: 100%;
-    
+
     /* background-color: red; */
   }
   .food-ads-container2 {
@@ -207,7 +208,7 @@
     height: 200px;
     text-align: center;
     /* background-color: red; */
-    border:  1px solid red;
+    border: 1px solid red;
     border-radius: 8px;
     margin-left: 5%;
   }
@@ -217,7 +218,7 @@
   }
 }
 
-@media screen and (max-width:588px){
+@media screen and (max-width: 588px) {
   .food-wrapper {
     display: block;
     /* background-color: red; */
@@ -225,16 +226,15 @@
   .food-img-container {
     width: 80%;
   }
-  
+
   .food-all-image {
     width: 100%;
     margin-left: 10%;
   }
-  
+
   .food-details {
     /* background-color: red; */
     width: 90%;
     padding: 5px;
-  }  
-  
+  }
 }
